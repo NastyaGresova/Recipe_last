@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list"/>
+		<Node name="data">
+			<Node name="children">
+				<Node name="{a7e0d010-4080-430d-b153-a48f8e577bed}">
+					<Node name="children">
+						<Node name="{d8291ba2-00bb-4729-8c76-f7d753ed7fe2}">
+							<Node name="children">
+								<Node name="{d1615791-ca0f-4efd-a2eb-019b8fcd8778}">
+									<Node name="children">
+										<Node name="{f0e9f1c7-967c-482c-897f-8b6f502be723}">
+											<Node name="children">
+												<Node name="{1aef1f3a-9887-475f-9d48-dfce3696a62d}">
+													<Node name="children">
+														<Node name="{2cb9fda3-1764-44a4-b96d-1a24f3559d91}">
+															<Node name="children">
+																<Node name="{05126eed-cbfe-4587-a47e-ac28eadba092}">
+																	<Node name="children">
+																		<Node name="{530d4a7c-6d0d-44ad-a426-e8ffda2ce18b}">
+																			<Node name="children">
+																				<Node name="{5ace4746-4cd1-46ef-8cff-8fac91b9c541}">
+																					<Node name="children">
+																						<Node name="{70d0f563-6583-4e23-918a-c998d009071d}">
+																							<Node name="children">
+																								<Node name="{d5ed5868-8873-4826-bece-3861c8eb1828}">
+																									<Node name="children">
+																										<Node name="{00c4bfee-c200-47d6-b40f-65e00ae2af00}">
+																											<Node name="children">
+																												<Node name="{e661fd7a-7002-4627-80a8-2ed35b7e65d5}">
+																													<Node name="children">
+																														<Node name="{40b86089-6b2a-4069-9a22-86daf50a51de}">
+																															<Node name="children">
+																																<Node name="{15a2be1b-5127-4e44-a7f0-73d6812ea9dd}">
+																																	<Node name="children">
+																																		<Node name="{464e7a7d-2325-4dd2-b036-33f1a3aac158}">
+																																			<Node name="children">
+																																				<Node name="{43fdcd35-dccc-4194-b81a-dc620ea94551}">
+																																					<Node name="children">
+																																						<Node name="{8816db84-d5ac-4750-b894-1c0dba870c00}">
+																																							<Node name="children"/>
+																																							<Node name="properties">
+																																								<Node name="property0">
+																																									<Prp name="cookie" type="I" value="33"/>
+																																									<Prp name="name" type="S" value="ClassName"/>
+																																								</Node>
+																																								<Node name="property1">
+																																									<Prp name="cookie" type="I" value="34"/>
+																																									<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+																																								</Node>
+																																							</Node>
+																																							<Prp name="name" type="S" value="ToolBarView"/>
+																																						</Node>
+																																					</Node>
+																																					<Node name="properties">
+																																						<Node name="property0">
+																																							<Prp name="cookie" type="I" value="31"/>
+																																							<Prp name="name" type="S" value="ClassName"/>
+																																						</Node>
+																																						<Node name="property1">
+																																							<Prp name="cookie" type="I" value="32"/>
+																																							<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+																																						</Node>
+																																					</Node>
+																																					<Prp name="name" type="S" value="pTool"/>
+																																				</Node>
+																																			</Node>
+																																			<Node name="properties">
+																																				<Node name="property0">
+																																					<Prp name="cookie" type="I" value="29"/>
+																																					<Prp name="name" type="S" value="ClassName"/>
+																																				</Node>
+																																				<Node name="property1">
+																																					<Prp name="cookie" type="I" value="30"/>
+																																					<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+																																				</Node>
+																																			</Node>
+																																			<Prp name="name" type="S" value="pTop"/>
+																																		</Node>
+																																		<Node name="{90c5f488-2f0f-4d7e-8a7e-1f8d4a90d08e}">
+																																			<Node name="children"/>
+																																			<Node name="properties">
+																																				<Node name="property0">
+																																					<Prp name="cookie" type="I" value="27"/>
+																																					<Prp name="name" type="S" value="ClassName"/>
+																																				</Node>
+																																				<Node name="property1">
+																																					<Prp name="cookie" type="I" value="28"/>
+																																					<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+																																				</Node>
+																																			</Node>
+																																			<Node name="type info">
+																																				<Prp name="item0" type="I" value="0"/>
+																																			</Node>
+																																			<Prp name="name" type="S" value="tbCreateRecipeSelected"/>
+																																		</Node>
+																																	</Node>
+																																	<Node name="properties">
+																																		<Node name="property0">
+																																			<Prp name="cookie" type="I" value="25"/>
+																																			<Prp name="name" type="S" value="ClassName"/>
+																																		</Node>
+																																		<Node name="property1">
+																																			<Prp name="cookie" type="I" value="26"/>
+																																			<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+																																		</Node>
+																																	</Node>
+																																	<Prp name="name" type="S" value="PatDocAmbRecipeForm"/>
+																																</Node>
+																															</Node>
+																															<Node name="properties">
+																																<Node name="property0">
+																																	<Prp name="cookie" type="I" value="23"/>
+																																	<Prp name="name" type="S" value="ClassName"/>
+																																</Node>
+																																<Node name="property1">
+																																	<Prp name="cookie" type="I" value="24"/>
+																																	<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+																																</Node>
+																															</Node>
+																															<Prp name="name" type="S" value="PanelRecipe"/>
+																														</Node>
+																													</Node>
+																													<Node name="properties">
+																														<Node name="property0">
+																															<Prp name="cookie" type="I" value="21"/>
+																															<Prp name="name" type="S" value="ClassName"/>
+																														</Node>
+																														<Node name="property1">
+																															<Prp name="cookie" type="I" value="22"/>
+																															<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+																														</Node>
+																													</Node>
+																													<Prp name="name" type="S" value="TabControl2"/>
+																												</Node>
+																											</Node>
+																											<Node name="properties">
+																												<Node name="property0">
+																													<Prp name="cookie" type="I" value="19"/>
+																													<Prp name="name" type="S" value="ClassName"/>
+																												</Node>
+																												<Node name="property1">
+																													<Prp name="cookie" type="I" value="20"/>
+																													<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+																												</Node>
+																											</Node>
+																											<Prp name="name" type="S" value="RecipePanel"/>
+																										</Node>
+																									</Node>
+																									<Node name="properties">
+																										<Node name="property0">
+																											<Prp name="cookie" type="I" value="17"/>
+																											<Prp name="name" type="S" value="ClassName"/>
+																										</Node>
+																										<Node name="property1">
+																											<Prp name="cookie" type="I" value="18"/>
+																											<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+																										</Node>
+																									</Node>
+																									<Prp name="name" type="S" value="PatDrugDocAmbForm"/>
+																								</Node>
+																							</Node>
+																							<Node name="properties">
+																								<Node name="property0">
+																									<Prp name="cookie" type="I" value="15"/>
+																									<Prp name="name" type="S" value="WndClass"/>
+																								</Node>
+																								<Node name="property1">
+																									<Prp name="cookie" type="I" value="16"/>
+																									<Prp name="name" type="S" value="WndCaption"/>
+																								</Node>
+																							</Node>
+																							<Prp name="name" type="S" value="TTabSheet"/>
+																						</Node>
+																					</Node>
+																					<Node name="properties">
+																						<Node name="property0">
+																							<Prp name="cookie" type="I" value="14"/>
+																							<Prp name="name" type="S" value="WndClass"/>
+																						</Node>
+																					</Node>
+																					<Prp name="name" type="S" value="TPageControl"/>
+																				</Node>
+																			</Node>
+																			<Node name="properties">
+																				<Node name="property0">
+																					<Prp name="cookie" type="I" value="12"/>
+																					<Prp name="name" type="S" value="ClassName"/>
+																				</Node>
+																				<Node name="property1">
+																					<Prp name="cookie" type="I" value="13"/>
+																					<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+																				</Node>
+																			</Node>
+																			<Prp name="name" type="S" value="TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2"/>
+																		</Node>
+																	</Node>
+																	<Node name="properties">
+																		<Node name="property0">
+																			<Prp name="cookie" type="I" value="11"/>
+																			<Prp name="name" type="S" value="WndClass"/>
+																		</Node>
+																	</Node>
+																	<Prp name="name" type="S" value="TScrollBoxWithControls"/>
+																</Node>
+															</Node>
+															<Node name="properties">
+																<Node name="property0">
+																	<Prp name="cookie" type="I" value="9"/>
+																	<Prp name="name" type="S" value="ClassName"/>
+																</Node>
+																<Node name="property1">
+																	<Prp name="cookie" type="I" value="10"/>
+																	<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+																</Node>
+															</Node>
+															<Prp name="name" type="S" value="pSPEGRE"/>
+														</Node>
+													</Node>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="7"/>
+															<Prp name="name" type="S" value="ClassName"/>
+														</Node>
+														<Node name="property1">
+															<Prp name="cookie" type="I" value="8"/>
+															<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="pForm"/>
+												</Node>
+											</Node>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="5"/>
+													<Prp name="name" type="S" value="ClassName"/>
+												</Node>
+												<Node name="property1">
+													<Prp name="cookie" type="I" value="6"/>
+													<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="pResume"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="3"/>
+											<Prp name="name" type="S" value="ClassName"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="4"/>
+											<Prp name="name" type="S" value="NativeDelphiObject.Name"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="AMMain"/>
+								</Node>
+							</Node>
+							<Node name="properties">
+								<Node name="property0">
+									<Prp name="cookie" type="I" value="2"/>
+									<Prp name="name" type="S" value="ProcessName"/>
+								</Node>
+							</Node>
+							<Prp name="name" type="S" value="Automedi"/>
+						</Node>
+					</Node>
+					<Node name="properties">
+						<Node name="property0">
+							<Prp name="cookie" type="I" value="0"/>
+							<Prp name="name" type="S" value="Name"/>
+						</Node>
+						<Node name="property1">
+							<Prp name="cookie" type="I" value="1"/>
+							<Prp name="name" type="S" value="Id"/>
+						</Node>
+					</Node>
+					<Prp name="name" type="S" value="Sys"/>
+				</Node>
+			</Node>
+			<Node name="logical nodes">
+				<Node name="automedi">
+					<Node name="ammain">
+						<Node name="presume">
+							<Node name="pform">
+								<Node name="pspegre">
+									<Node name="tscrollboxwithcontrols">
+										<Node name="tpatdoccontrol_935a08b5b8df4f818224fadddc3642e2">
+											<Node name="tpagecontrol">
+												<Node name="ttabsheet">
+													<Node name="patdrugdocambform">
+														<Node name="recipepanel">
+															<Node name="tabcontrol2">
+																<Node name="panelrecipe">
+																	<Node name="patdocambrecipeform">
+																		<Node name="ptop">
+																			<Node name="ptool">
+																				<Node name="toolbarview">
+																					<Prp name="name" type="S" value="ToolBarView"/>
+																					<Prp name="owner" type="S" value="{8816DB84-D5AC-4750-B894-1C0DBA870C00}"/>
+																				</Node>
+																				<Prp name="name" type="S" value="pTool"/>
+																				<Prp name="owner" type="S" value="{43FDCD35-DCCC-4194-B81A-DC620EA94551}"/>
+																			</Node>
+																			<Prp name="name" type="S" value="pTop"/>
+																			<Prp name="owner" type="S" value="{464E7A7D-2325-4DD2-B036-33F1A3AAC158}"/>
+																		</Node>
+																		<Node name="tbcreaterecipeselected">
+																			<Prp name="name" type="S" value="tbCreateRecipeSelected"/>
+																			<Prp name="owner" type="S" value="{90C5F488-2F0F-4D7E-8A7E-1F8D4A90D08E}"/>
+																		</Node>
+																		<Prp name="name" type="S" value="PatDocAmbRecipeForm"/>
+																		<Prp name="owner" type="S" value="{15A2BE1B-5127-4E44-A7F0-73D6812EA9DD}"/>
+																	</Node>
+																	<Prp name="name" type="S" value="PanelRecipe"/>
+																	<Prp name="owner" type="S" value="{40B86089-6B2A-4069-9A22-86DAF50A51DE}"/>
+																</Node>
+																<Prp name="name" type="S" value="TabControl2"/>
+																<Prp name="owner" type="S" value="{E661FD7A-7002-4627-80A8-2ED35B7E65D5}"/>
+															</Node>
+															<Prp name="name" type="S" value="RecipePanel"/>
+															<Prp name="owner" type="S" value="{00C4BFEE-C200-47D6-B40F-65E00AE2AF00}"/>
+														</Node>
+														<Prp name="name" type="S" value="PatDrugDocAmbForm"/>
+														<Prp name="owner" type="S" value="{D5ED5868-8873-4826-BECE-3861C8EB1828}"/>
+													</Node>
+													<Prp name="name" type="S" value="TTabSheet"/>
+													<Prp name="owner" type="S" value="{70D0F563-6583-4E23-918A-C998D009071D}"/>
+												</Node>
+												<Prp name="name" type="S" value="TPageControl"/>
+												<Prp name="owner" type="S" value="{5ACE4746-4CD1-46EF-8CFF-8FAC91B9C541}"/>
+											</Node>
+											<Prp name="name" type="S" value="TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2"/>
+											<Prp name="owner" type="S" value="{530D4A7C-6D0D-44AD-A426-E8FFDA2CE18B}"/>
+										</Node>
+										<Prp name="name" type="S" value="TScrollBoxWithControls"/>
+										<Prp name="owner" type="S" value="{05126EED-CBFE-4587-A47E-AC28EADBA092}"/>
+									</Node>
+									<Prp name="name" type="S" value="pSPEGRE"/>
+									<Prp name="owner" type="S" value="{2CB9FDA3-1764-44A4-B96D-1A24F3559D91}"/>
+								</Node>
+								<Prp name="name" type="S" value="pForm"/>
+								<Prp name="owner" type="S" value="{1AEF1F3A-9887-475F-9D48-DFCE3696A62D}"/>
+							</Node>
+							<Prp name="name" type="S" value="pResume"/>
+							<Prp name="owner" type="S" value="{F0E9F1C7-967C-482C-897F-8B6F502BE723}"/>
+						</Node>
+						<Prp name="name" type="S" value="AMMain"/>
+						<Prp name="owner" type="S" value="{D1615791-CA0F-4EFD-A2EB-019B8FCD8778}"/>
+					</Node>
+					<Prp name="name" type="S" value="Automedi"/>
+					<Prp name="owner" type="S" value="{D8291BA2-00BB-4729-8C76-F7D753ED7FE2}"/>
+				</Node>
+				<Prp name="name" type="S" value="Aliases"/>
+				<Prp name="owner" type="S" value="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}"/>
+			</Node>
+			<Node name="properties"/>
+			<Node name="storages">
+				<Node name="child0">
+					<Node name="property0">
+						<Prp name="cookie" type="I" value="0"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Sys"/>
+					</Node>
+					<Node name="property1">
+						<Prp name="cookie" type="I" value="1"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="0"/>
+						<Prp name="value" type="I" value="-1"/>
+					</Node>
+					<Node name="property10">
+						<Prp name="cookie" type="I" value="10"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="pSPEGRE"/>
+					</Node>
+					<Node name="property11">
+						<Prp name="cookie" type="I" value="11"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TScrollBoxWithControls"/>
+					</Node>
+					<Node name="property12">
+						<Prp name="cookie" type="I" value="12"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPatDocControl"/>
+					</Node>
+					<Node name="property13">
+						<Prp name="cookie" type="I" value="13"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2"/>
+					</Node>
+					<Node name="property14">
+						<Prp name="cookie" type="I" value="14"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPageControl"/>
+					</Node>
+					<Node name="property15">
+						<Prp name="cookie" type="I" value="15"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TTabSheet"/>
+					</Node>
+					<Node name="property16">
+						<Prp name="cookie" type="I" value="16"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Амбулаторные назначения"/>
+					</Node>
+					<Node name="property17">
+						<Prp name="cookie" type="I" value="17"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPatDrugDocAmbForm"/>
+					</Node>
+					<Node name="property18">
+						<Prp name="cookie" type="I" value="18"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="PatDrugDocAmbForm"/>
+					</Node>
+					<Node name="property19">
+						<Prp name="cookie" type="I" value="19"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPanel"/>
+					</Node>
+					<Node name="property2">
+						<Prp name="cookie" type="I" value="2"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Automedi"/>
+					</Node>
+					<Node name="property20">
+						<Prp name="cookie" type="I" value="20"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="RecipePanel"/>
+					</Node>
+					<Node name="property21">
+						<Prp name="cookie" type="I" value="21"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TTabControl"/>
+					</Node>
+					<Node name="property22">
+						<Prp name="cookie" type="I" value="22"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TabControl2"/>
+					</Node>
+					<Node name="property23">
+						<Prp name="cookie" type="I" value="23"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPanel"/>
+					</Node>
+					<Node name="property24">
+						<Prp name="cookie" type="I" value="24"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="PanelRecipe"/>
+					</Node>
+					<Node name="property25">
+						<Prp name="cookie" type="I" value="25"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPatDocAmbRecipeForm"/>
+					</Node>
+					<Node name="property26">
+						<Prp name="cookie" type="I" value="26"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="PatDocAmbRecipeForm"/>
+					</Node>
+					<Node name="property27">
+						<Prp name="cookie" type="I" value="27"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TToolButton"/>
+					</Node>
+					<Node name="property28">
+						<Prp name="cookie" type="I" value="28"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="tbCreateRecipeSelected"/>
+					</Node>
+					<Node name="property29">
+						<Prp name="cookie" type="I" value="29"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPanel"/>
+					</Node>
+					<Node name="property3">
+						<Prp name="cookie" type="I" value="3"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TAMMain"/>
+					</Node>
+					<Node name="property30">
+						<Prp name="cookie" type="I" value="30"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="pTop"/>
+					</Node>
+					<Node name="property31">
+						<Prp name="cookie" type="I" value="31"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPanel"/>
+					</Node>
+					<Node name="property32">
+						<Prp name="cookie" type="I" value="32"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="pTool"/>
+					</Node>
+					<Node name="property33">
+						<Prp name="cookie" type="I" value="33"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TToolBar"/>
+					</Node>
+					<Node name="property34">
+						<Prp name="cookie" type="I" value="34"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="ToolBarView"/>
+					</Node>
+					<Node name="property4">
+						<Prp name="cookie" type="I" value="4"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="AMMain"/>
+					</Node>
+					<Node name="property5">
+						<Prp name="cookie" type="I" value="5"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPanel"/>
+					</Node>
+					<Node name="property6">
+						<Prp name="cookie" type="I" value="6"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="pResume"/>
+					</Node>
+					<Node name="property7">
+						<Prp name="cookie" type="I" value="7"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPanel"/>
+					</Node>
+					<Node name="property8">
+						<Prp name="cookie" type="I" value="8"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="pForm"/>
+					</Node>
+					<Node name="property9">
+						<Prp name="cookie" type="I" value="9"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="TPanel"/>
+					</Node>
+					<Prp name="name" type="S" value="Default Configuration"/>
+				</Node>
+				<Prp name="current" type="I" value="0"/>
+			</Node>
+			<Node name="typeinfo">
+				<Node name="child0">
+					<Node name="functiondescriptions">
+						<Node name="item0">
+							<Node name="param0">
+								<Node name="defvalue">
+									<Prp name="type" type="I" value="0"/>
+									<Prp name="value" type="I" value="-1"/>
+								</Node>
+								<Prp name="flags" type="I" value="49"/>
+								<Prp name="param0" type="I" value="3"/>
+							</Node>
+							<Node name="param1">
+								<Node name="defvalue">
+									<Prp name="type" type="I" value="0"/>
+									<Prp name="value" type="I" value="-1"/>
+								</Node>
+								<Prp name="flags" type="I" value="49"/>
+								<Prp name="param0" type="I" value="3"/>
+							</Node>
+							<Node name="param2">
+								<Node name="defvalue">
+									<Prp name="type" type="I" value="0"/>
+									<Prp name="value" type="I" value="0"/>
+								</Node>
+								<Prp name="flags" type="I" value="49"/>
+								<Prp name="param0" type="I" value="29"/>
+								<Prp name="type0" type="I" value="0"/>
+							</Node>
+							<Node name="returnvalue">
+								<Prp name="param0" type="I" value="24"/>
+							</Node>
+							<Prp name="data" type="H" value="F444591B000000005804E21A0400000001000000040000000300000070FD5F050000000018000000000000000000000000005F05"/>
+							<Prp name="doc" type="S" value="Simulates a left-button single click in a window or control as specified (relative position, shift keys)."/>
+							<Prp name="isbasic" type="B" value="-1"/>
+							<Prp name="name" type="S" value="Click"/>
+							<Prp name="param0" type="S" value="ClientX"/>
+							<Prp name="param1" type="S" value="ClientY"/>
+							<Prp name="param2" type="S" value="Shift"/>
+						</Node>
+						<Node name="item1">
+							<Node name="param0">
+								<Node name="defvalue">
+									<Prp name="type" type="I" value="0"/>
+									<Prp name="value" type="I" value="-1"/>
+								</Node>
+								<Prp name="flags" type="I" value="49"/>
+								<Prp name="param0" type="I" value="3"/>
+							</Node>
+							<Node name="param1">
+								<Node name="defvalue">
+									<Prp name="type" type="I" value="0"/>
+									<Prp name="value" type="I" value="-1"/>
+								</Node>
+								<Prp name="flags" type="I" value="49"/>
+								<Prp name="param0" type="I" value="3"/>
+							</Node>
+							<Node name="param2">
+								<Node name="defvalue">
+									<Prp name="type" type="I" value="0"/>
+									<Prp name="value" type="I" value="0"/>
+								</Node>
+								<Prp name="flags" type="I" value="49"/>
+								<Prp name="param0" type="I" value="29"/>
+								<Prp name="type0" type="I" value="0"/>
+							</Node>
+							<Node name="returnvalue">
+								<Prp name="param0" type="I" value="24"/>
+							</Node>
+							<Prp name="data" type="H" value="F544591B000000002004E21A04000000010000000400000003000000740069000000000018000000000000000000000000002000"/>
+							<Prp name="doc" type="S" value="Simulates a right-button single click in a window or control as specified (relative position, shift keys)."/>
+							<Prp name="isbasic" type="B" value="-1"/>
+							<Prp name="name" type="S" value="ClickR"/>
+							<Prp name="param0" type="S" value="ClientX"/>
+							<Prp name="param1" type="S" value="ClientY"/>
+							<Prp name="param2" type="S" value="Shift"/>
+						</Node>
+						<Node name="item2">
+							<Node name="param0">
+								<Prp name="flags" type="I" value="1"/>
+								<Prp name="param0" type="I" value="8"/>
+							</Node>
+							<Node name="returnvalue">
+								<Prp name="param0" type="I" value="24"/>
+							</Node>
+							<Prp name="data" type="H" value="F644591B0000000098750C1B04000000010000000400000001000000000000000000000018000000000000000000000000000000"/>
+							<Prp name="doc" type="S" value="Simulates one or several keypresses."/>
+							<Prp name="isbasic" type="B" value="-1"/>
+							<Prp name="name" type="S" value="Keys"/>
+							<Prp name="param0" type="S" value="Keys"/>
+						</Node>
+					</Node>
+					<Node name="vardescriptions"/>
+					<Prp name="hash" type="I" value="515811430"/>
+					<Prp name="properties" type="H" value="D2E0EE46EA86484CB4C3C2AD15A38CB90000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000300000000000000000000000000000000000000000000000000000000000000"/>
+				</Node>
+				<Node name="user defined types">
+					<Prp name="0" type="S" value="TShiftKey"/>
+				</Node>
+			</Node>
+			<Prp name="cookie" type="I" value="35"/>
+			<Prp name="name" type="S" value="NameMapping"/>
+			<Prp name="version" type="I" value="3"/>
+		</Node>
+		<Node name="settings">
+			<Prp name="settingsversion" type="S" value="8.70"/>
+		</Node>
+		<Prp name="signature" type="S" value="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}"/>
+		<Prp name="version" type="S" value="8.0"/>
+	</Node>
+</Nodes>

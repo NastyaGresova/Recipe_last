@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="logs">
+			<Node name="log0">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44761.7443604745"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{9568FF53-080F-4924-B1CF-39108ABC8A70}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="19_07_2022_17_51_52_744\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log1">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44761.7490872569"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{DB7C0D49-B77E-4737-B025-F410936FB066}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="19_07_2022_17_58_41_138\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log10">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44785.4852634607"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="10"/>
+				<Prp name="key" type="S" value="{9651B36A-6574-48BD-A9BE-C6295FCF8C98}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="12_08_2022_11_38_46_762\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log11">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44785.5066311921"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="11"/>
+				<Prp name="key" type="S" value="{F32BA8E7-820E-4EFF-9DF0-2CEED6071CBC}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Typical_toolbar\Test8]"/>
+				<Prp name="relpath" type="S" value="12_08_2022_12_09_32_934\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log12">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44785.5305735532"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="12"/>
+				<Prp name="key" type="S" value="{641EDDA4-72C0-45B7-8014-7354C92040DA}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="12_08_2022_12_44_01_554\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log13">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44785.5311386458"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="13"/>
+				<Prp name="key" type="S" value="{4AEA941C-C5FF-4A03-8169-296516AF451F}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="12_08_2022_12_44_50_378\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log14">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44785.5391828704"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="14"/>
+				<Prp name="key" type="S" value="{92D120C5-5AF2-4AD1-9D58-9D239DC3C034}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="12_08_2022_12_56_25_398\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log15">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44790.7020664931"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="15"/>
+				<Prp name="key" type="S" value="{87904815-FABD-480F-823C-0C8A4639AB51}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="17_08_2022_16_50_58_544\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log16">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44790.7071510648"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="16"/>
+				<Prp name="key" type="S" value="{D47D7503-0942-45B8-8C24-4D6F9B706108}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="17_08_2022_16_58_17_850\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log17">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44790.7077134259"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="17"/>
+				<Prp name="key" type="S" value="{76176B68-291B-4893-BDD3-07CE522F230E}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="17_08_2022_16_59_06_438\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log2">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44761.7536282986"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{BD9FFEF1-85D6-4460-961D-4EF749CFD1FC}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="19_07_2022_18_05_13_483\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log3">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44761.7676359838"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{EB1DC0EF-365F-4719-A012-73F31AC54E98}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="19_07_2022_18_25_23_748\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log4">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44761.7745402199"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{546F1472-9AC3-431B-9BF1-A7149179CECC}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="19_07_2022_18_35_20_274\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log5">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44761.7826276042"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{9024ED3E-C4FB-47C5-BE57-02C0C31B1FAA}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="19_07_2022_18_46_59_24\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log6">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44784.7314563194"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="key" type="S" value="{2A5F213D-B5A5-4DE9-9372-E6FD97725F93}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="11_08_2022_17_33_17_823\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log7">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44784.7466842245"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="7"/>
+				<Prp name="key" type="S" value="{1ADF3D86-E454-4748-9BE5-A5FC2567F2C5}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="11_08_2022_17_55_13_516\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log8">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44784.7536906481"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="8"/>
+				<Prp name="key" type="S" value="{E5121281-5666-444B-AFF0-5F98B66133B7}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="11_08_2022_18_05_18_870\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log9">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44785.4792085069"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="9"/>
+				<Prp name="key" type="S" value="{720A03CB-DEDB-46B8-93DF-E5516DBF6804}"/>
+				<Prp name="nameofroot" type="S" value="Recipe"/>
+				<Prp name="relpath" type="S" value="12_08_2022_11_30_03_613\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>
